@@ -16,7 +16,7 @@ public class Book {
     }
 
     public boolean insertBook() {
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter("Books.txt", true))) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter("file/Books.txt", true))) {
             writer.write(ISBN + ", " + title + ", " + author + ", " + publicationYear + ", " + type);
             writer.newLine(); // Aggiungi una nuova linea
             return false;
