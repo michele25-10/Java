@@ -1,4 +1,4 @@
-package linguaggiProgrammazione.simulazione1;
+//package linguaggiProgrammazione.simulazione1;
 
 public class Squash extends Sport {
     final static String nomeSport = "Squash";

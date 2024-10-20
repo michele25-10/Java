@@ -1,7 +1,7 @@
-package linguaggiProgrammazione.simulazione1;
+//package linguaggiProgrammazione.simulazione1;
 
 public class Tennis extends Sport {
-    final static String nomeSport = "Tennis";
+    final static String nomeSport = "tennis";
     private float temperatura_media;
     private String terreno;
 

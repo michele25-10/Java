@@ -1,4 +1,4 @@
-package linguaggiProgrammazione.simulazione1;
+//package linguaggiProgrammazione.simulazione1;
 
 import java.util.ArrayList;
 
@@ -31,5 +31,15 @@ public class Socio {
         });
         returnString.append("\n");
         return returnString.toString();
+    }
+
+    public float costoPrenotazioneCampo(int codice, float tariffa) {
+        final float[] total = { 0 };
+        prenotazioni.forEach(item -> {
+            if (codice == item.getCodice()) {
+                total[0] += tariffa * item.getOraInizio();
+            }
+        });
+        return total[0];
     }
 }
