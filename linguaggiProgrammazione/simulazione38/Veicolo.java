@@ -1,4 +1,4 @@
-//package linguaggiProgrammazione.simulazione38;
+package linguaggiProgrammazione.simulazione38;
 
 public class Veicolo {
     private int codice;
