@@ -1,5 +1,3 @@
-package linguaggiProgrammazione.clinica;
-
 public class Clinica {
     public static void main(String[] args) {
         Dottore[] dottori = new Dottore[2];
